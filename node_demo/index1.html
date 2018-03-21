@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    
+</head>
+<body>
+    <span>First Name:
+        <input type="text" id="Name">
+        <input type="button" id="button1" value="Show"><br/>
+    </span>
+    <span>Last Name:
+        <input type="text" id="Last">
+        <input type="button" id="button2" value="Show">      
+    </span>
+    <script>
+        var j = document.getElementById('button1');
+        j.addEventListener('click', ()=>{
+            alert(document.getElementById('Name').value);
+        });
+        var last = document.getElementById('button2');
+        last.addEventListener('click', ()=>{
+            alert(document.getElementById('Last').value);
+        });
+        
+    </script>
+</body>
+</html>

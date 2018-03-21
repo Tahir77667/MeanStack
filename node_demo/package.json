@@ -1,0 +1,20 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "This is my first day of Mean Stack",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "javascript"
+  ],
+  "author": "TAHIR",
+  "license": "MIT"
+}
